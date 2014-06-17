@@ -1,3 +1,10 @@
+a {
+	text-decoration: none;
+}
+input[type="submit"], input[type="button"] {
+	border: none;
+} 
+
 .horizontal-centered {
 	margin: 0 auto;
 	width: 90%;
@@ -31,4 +38,40 @@ ul.menu-horizontal li {
 	display: inline;
 	padding: 0;
 	margin: 0;
+}
+
+.button1 {
+	display: inline-block;
+	width: 200px;
+	height: 70px;
+	line-height: 70px;
+	background-color: #E5777E;
+	border-radius: 5px;
+	text-align: center;
+	font-size: 1.5em;
+	color: #eee;
+}
+
+.button2 {
+	display: inline-block;
+	width: 150px;
+	height: 35px;
+	line-height: 35px;
+	background-color: #E5777E;
+	border-radius: 5px;
+	text-align: center;
+	font-size: 1em;
+	color: #eee;
+}
+
+.button3 {
+	display: inline-block;
+	width: 35px;
+	height: 25px;
+	line-height: 25px;
+	background-color: #E5777E;
+	border-radius: 5px;
+	text-align: center;
+	font-size: .9em;
+	color: #eee;
 }
