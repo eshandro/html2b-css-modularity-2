@@ -1,0 +1,15 @@
+.horizontal-centered {
+	margin: 0 auto;
+	width: 90%;
+}
+.horizontal-centered img{
+	padding: 0 20px;
+}
+
+.float-left {
+	float: left;
+	padding: 0 20px;
+}
+ol.float-left {
+	margin-left: 15px;
+}
