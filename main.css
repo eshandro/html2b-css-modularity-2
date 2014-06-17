@@ -13,3 +13,17 @@
 ol.float-left {
 	margin-left: 15px;
 }
+
+.container {
+	position: relative;
+	height: 300px;
+}
+
+.vertical-center {
+	position: absolute;
+	top: 25%;
+	left: 0;
+	height: 50%
+}
+
+
