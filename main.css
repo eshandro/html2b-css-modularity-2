@@ -13,10 +13,20 @@ input[type="submit"], input[type="button"] {
 	padding: 0 20px;
 }
 
+.float-right {
+	float: right;
+	padding: 0 200px 0 0;
+}
+
 .float-left {
 	float: left;
-	padding: 0 20px;
+	padding: 0 20px 20px 0;
 }
+
+.clear {
+	clear: both;
+}
+
 ol.float-left {
 	margin-left: 15px;
 }
@@ -132,4 +142,8 @@ ul.menu-horizontal-highlight :last-child {
 li.current { 
 	color: #C5C5C5;
 	border-bottom: 3px solid #C5C5C5;
+}
+
+.comment-second-level {
+	margin-left: 100px;
 }
