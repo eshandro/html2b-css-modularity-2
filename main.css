@@ -5,6 +5,14 @@ input[type="submit"], input[type="button"] {
 	border: none;
 } 
 
+ul {
+	text-decoration: none;
+}
+
+li {
+	text-decoration: none;
+}
+
 .horizontal-centered {
 	margin: 0 auto;
 	width: 90%;
@@ -45,6 +53,13 @@ ol.float-left {
 
 ul.menu-horizontal {
 	padding: 0;
+}
+
+.menu-horizontal {
+	text-decoration: none;
+	display: inline-block;
+	padding: 0;
+	margin: 0;
 }
 
 ul.menu-horizontal li {
@@ -146,4 +161,51 @@ li.current {
 
 .comment-second-level {
 	margin-left: 100px;
+}
+
+.relative {
+	position: relative;
+}
+.menu-tab {
+	display: inline;
+	color: blue;
+	padding: 10px 10px;
+}
+
+ul.menu-tab > li {
+	text-decoration: none;
+	display: inline-block;
+	border-top: 1px solid blue;
+	border-right: 1px solid blue;
+	border-left: 1px solid blue;
+	border-radius: 8px 8px 0 0;
+	padding: 5px 5px;
+	margin: 0 5px;
+	font-size: .9em;
+	font-weight: bold;
+}
+
+.tab-content {
+	position: relative;
+	top: -1px;
+	color: black;
+	border: 1px solid blue;
+	padding: 10px;
+	border-radius: 8px;
+}
+.menu-tab >li:hover {
+	position: relative;
+	top: 0;
+	left: 0;
+	z-index: 100;
+	border-bottom: 1px solid white;
+	background-color: white;	
+}
+li.selected {
+	position: relative;
+	top: 0;
+	left: 0;
+	z-index: 100;
+	border-bottom: 1px solid white;
+	background-color: white;	
 }
